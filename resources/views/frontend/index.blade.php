@@ -14,7 +14,8 @@
     <section class="section about" id="about">
         <div class="container">
             <h2>About Us</h2>
-            <p>Meet our founder Poonam Thapa and discover our story.</p>
+            <p>Founded by Poonam Thapa, Glamora Cosmetics was born out of a vision to inspire confidence and celebrate
+                individuality. Discover our story and join us on this beautiful journey.</p>
             {{-- <img src="founder.jpg" alt="Founder"> --}}
         </div>
     </section>
