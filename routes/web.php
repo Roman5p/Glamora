@@ -12,6 +12,10 @@ Route::get('/', function () {
     return view('frontend.index');
 })->name('index');
 
+Route::get('/about', function () {
+    return view('frontend.about');
+})->name('about');
+
 
 Route::get('/cosmetic', function () {
     return view('frontend.cosmetic');
