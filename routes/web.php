@@ -17,17 +17,21 @@ Route::get('/about', function () {
 })->name('about');
 
 
-Route::get('/cosmetic', function () {
-    return view('frontend.cosmetic');
-})->name('cosmetic');
+Route::get('/Dress', function () {
+    return view('frontend.Dresses');
+})->name('dress');
 
-Route::get('/lens', function () {
-    return view('frontend.lens');
-})->name('lens');
+Route::get('/accessory', function () {
+    return view('frontend.accessories');
+})->name('accessory');
 
-Route::get('/skin', function () {
-    return view('frontend.skin');
-})->name('skin');
+Route::get('/handbag', function () {
+    return view('frontend.handbags');
+})->name('handbag');
+
+Route::get('/checkout', function () {
+    return view('frontend.checkout');
+})->name('checkout');
 
 
 

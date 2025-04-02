@@ -16,18 +16,23 @@ class HomeController extends Controller
         return view('frontend.about');
     }
 
-    public function cosmetic()
+    public function Dress()
     {
-        return view('frontend.cosmetic');
+        return view('frontend.Dresses');
     }
 
-    public function lens()
+    public function accessory()
     {
-        return view('frontend.lens');
+        return view('frontend.accessories');
     }
 
-    public function skin()
+    public function handbag()
     {
-        return view('frontend.skin');
+        return view('frontend.handbags');
+    }
+
+    public function checkout()
+    {
+        return view('frontend.checkout');
     }
 }

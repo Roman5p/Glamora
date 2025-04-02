@@ -4,18 +4,18 @@
 
 @section('main-section')
     <!-- Hero Section -->
-    <section class="hero-section">
+    {{-- <section class="hero-section">
         <div class="container">
             <h1>GLAMORA</h1>
         </div>
-    </section>
+    </section> --}}
 
     <!-- About Section -->
-    <section class="about-section">
+    <section class="about-section mt-3">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-4 text-center">
-                    <img src="https://via.placeholder.com/300x400" alt="Poonam Thapa" class="img-fluid">
+                    <img src="{{asset('images/poo.jpg')}}" alt="Poonam Thapa" class="img-fluid rounded shadow" style="width: 50%; height: auto;">
                 </div>
                 <div class="col-lg-8">
                     <h2>About Poonam Thapa</h2>
@@ -29,29 +29,28 @@
     </section>
 
     <!-- Mission Section 1 -->
-    <section class="mission-section">
+    <section class="mission-section mt-5">
         <div class="container">
-            <h2 class="text-center mb-4">From Nepal to UK, Redefining Fashion Globally.</h2>
+            <h2 class="text-center mb-4">From Nepal to India, Redefining Fashion Globally.</h2>
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <p>Born in Nepal, raised in India, Poonam Thapa is a passionate fashion designer and entrepreneur
-                        who founded Glamora Designs in the UK. Determined to bridge the gap in the fashion industry, she
+                        who founded Glamora Designs in the Nepal. Determined to bridge the gap in the fashion industry, she
                         started creating unique designs, teaching fashion workshops, and inspiring individuals to embrace
                         their own style.</p>
                 </div>
                 <div class="col-lg-6 text-center">
-                    <img src="https://source.unsplash.com/500x300/?fashion,designer" alt="Mission Image 1" class="img-fluid">
+                    <img src="{{asset('images/dress.png')}}" alt="Mission Image 1" class="img-fluid rounded shadow" style="max-width: 100%; height: auto;">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Mission Section 2 -->
     <section class="mission-section">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 text-center">
-                    <img src="https://source.unsplash.com/500x300/?fashion,clothing" alt="Mission Image 2" class="img-fluid">
+                    <img src="{{asset('images/dress1.png')}}" alt="Mission Image 2" class="img-fluid rounded shadow" style="max-width: 100%; height: auto;">
                 </div>
                 <div class="col-lg-6">
                     <h2>Raising Fashion Standards Worldwide and Locally.</h2>
@@ -63,8 +62,7 @@
         </div>
     </section>
 
-    <!-- Mission Section 3 -->
-    <section class="mission-section">
+    <section class="mission-section mt-5">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -76,39 +74,19 @@
                         that are made with love and care.</p>
                 </div>
                 <div class="col-lg-6 text-center">
-                    <img src="https://source.unsplash.com/500x300/?fashion,runway" alt="Mission Image 3" class="img-fluid">
+                    <img src="{{ asset('images/dress3.jpg') }}" alt="Mission Image 3" class="img-fluid rounded shadow" style="width: 70%; height: auto;">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Mission Section 4 -->
-    <section class="mission-section">
+    <section class="mission-section mt-5">
         <div class="container">
             <h2 class="text-center mb-4">Sustainable Fashion for a Better Tomorrow in Nepal.</h2>
             <p class="text-center">Poonam's commitment to sustainability is at the heart of Glamora Designs. We are
                 dedicated to creating collections that not only enhance style but also contribute towards a better future by
                 using sustainable materials and practices. We aim to create high-quality designs that resonate with the
                 values of the Nepali market.</p>
-        </div>
-    </section>
-
-    <!-- Empowerment Section -->
-    <section class="empowerment-section">
-        <div class="container">
-            <h2 class="text-center mb-4">Empowering Women through Fashion Education and Self-Expression Advocacy.</h2>
-            <div class="row align-items-center">
-                <div class="col-lg-6 text-center">
-                    <img src="https://source.unsplash.com/500x300/?fashion,education" alt="Empowerment Image" class="img-fluid">
-                </div>
-                <div class="col-lg-6">
-                    <h3>Inspiring Path: Passion, Dedication, Support</h3>
-                    <p>Poonam's journey is a testament to the power of passion, determination, and support. She started
-                        Glamora Designs to empower women through fashion education and self-expression advocacy. Her mission
-                        is to inspire individuals to embrace their unique style, providing them with the tools and knowledge
-                        to feel confident and fashionable.</p>
-                </div>
-            </div>
         </div>
     </section>
 

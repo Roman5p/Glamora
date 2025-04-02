@@ -6,7 +6,7 @@
 
     <section class="hero">
         <div class="container">
-            <h1>Welcome to Glamora Cosmetics</h1>
+            <h1>Welcome to Glamora</h1>
         </div>
     </section>
 
@@ -14,7 +14,7 @@
     <section class="section about" id="about">
         <div class="container">
             <h2>About Us</h2>
-            <p>Founded by Poonam Thapa, Glamora Cosmetics was born out of a vision to inspire confidence and celebrate
+            <p>Founded by Poonam Thapa, Glamora was born out of a vision to inspire confidence and celebrate
                 individuality. Discover our story and join us on this beautiful journey.</p>
             {{-- <img src="founder.jpg" alt="Founder"> --}}
         </div>

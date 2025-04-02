@@ -103,8 +103,7 @@
 </style>
 
 <div class="marquee">
-    <p>Welcome to Glamora! Discover the best in cosmetics, lenses, and skincare. Shop now and enjoy exclusive offers!
-    </p>
+    <p>Welcome to Glamora! Discover the best in boutique fashion design wear, ornaments, and many more. Shop now and enjoy exclusive offers!</p>
 </div>
 
 
@@ -123,9 +122,14 @@
                         Products
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="productsDropdown">
-                        <li><a class="dropdown-item" href="{{ route('cosmetic') }}">Cosmetic</a></li>
-                        <li><a class="dropdown-item" href="{{ route('lens') }}">Lens</a></li>
-                        <li><a class="dropdown-item" href="{{ route('skin') }}">Skin</a></li>
+                        <li><a class="dropdown-item" href="{{ route('dress') }}">Dresses</a></li>
+                        <li><a class="dropdown-item" href="{{ route('accessory') }}">Accessories</a></li>
+                        <li><a class="dropdown-item" href="{{ route('handbag') }}">Handbags</a></li>
+                        {{-- <li><a class="dropdown-item" href="{{ route('jewelry') }}">Jewelry</a></li>
+                        <li><a class="dropdown-item" href="{{ route('shoes') }}">Shoes</a></li>
+                        <li><a class="dropdown-item" href="{{ route('scarves') }}">Scarves</a></li>
+                        <li><a class="dropdown-item" href="{{ route('hats') }}">Hats</a></li>
+                        <li><a class="dropdown-item" href="{{ route('sunglasses') }}">Sunglasses</a></li> --}}
                     </ul>
                 </li>
                 {{-- <li class="nav-item">
